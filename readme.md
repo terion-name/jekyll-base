@@ -21,7 +21,7 @@ bundle exec jekyll serve -w
 
 And open [http://localhost:4000](http://localhost:4000)
 
-## To run in Vagrant
+## To run in Vagrant (all requirements are already packed in VM)
 
 Install [Vagrant](http://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/)
 
