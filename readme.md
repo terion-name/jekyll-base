@@ -19,7 +19,7 @@ bower install
 bundle exec jekyll serve -w
 ```
 
-And open http://localhost:4000
+And open [http://localhost:4000](http://localhost:4000)
 
 ## To run in Vagrant
 
@@ -35,7 +35,7 @@ bower install
 bundle exec jekyll serve -w
 ```
 
-And open http://localhost:4000
+And open [http://localhost:4000](http://localhost:4000)
 
 ## Assets
 
