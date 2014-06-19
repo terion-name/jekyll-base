@@ -41,7 +41,7 @@ And open [http://localhost:4000](http://localhost:4000)
 
 Assets Pipeline included. See instructions here: https://github.com/matthodan/jekyll-asset-pipeline#jekyll-asset-pipeline
 
-Compass included
+[Compass](http://compass-style.org/) included so just use it
 
 ## For multilanguage sites
 
