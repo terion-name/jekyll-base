@@ -1,0 +1,43 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="{{ '/img/share.jpg' | prepend: site.baseurl | prepend: site.url }}" />
+
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/fav/57x57.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/114x114.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/fav/72x72.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/fav/144x144.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/60x60.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/fav/120x120.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/fav/76x76.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/fav/152x152.png"/>
+    <link rel="icon" type="image/png" href="/img/fav/16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="/img/fav/32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/img/fav/96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="/img/fav/160x160.png" sizes="160x160"/>
+    <link rel="icon" type="image/png" href="/img/fav/196x196.png" sizes="196x196"/>
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="/img/fav/144x144.png">
+
+    <script src="{{ '/vendor/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
+
+    {% css_asset_tag global %}
+    - /_assets/css/main.sass
+    {% endcss_asset_tag %}
+
+    {% javascript_asset_tag global %}
+    - /_assets/js/main.coffee
+    {% endjavascript_asset_tag %}
+
+</head>

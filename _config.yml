@@ -1,0 +1,21 @@
+# Site settings
+title: Site Name
+email: your-email@domain.com
+description: ""
+baseurl: ""
+url: "http://localhost:4000"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: false
+
+source: ./src
+destination: ./build
+
+asset_pipeline:
+  bundle: true
+  compress: false
+  output_path: assets
+  display_path: nil
+  gzip: false

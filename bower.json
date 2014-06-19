@@ -1,0 +1,17 @@
+{
+    "name": "jekyll project",
+    "version": "0.0.0",
+    "main": "index.html",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~2",
+        "bootstrap": "bootstrap-sass#~3.*"
+    }
+}

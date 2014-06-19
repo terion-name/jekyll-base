@@ -1,0 +1,8 @@
+build
+.sass-cache
+/vendor
+/src/vendor
+.DS_Store
+Thumbs.db
+.idea
+.vagrant
